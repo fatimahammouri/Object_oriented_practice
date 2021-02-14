@@ -21,7 +21,10 @@ class MelonType(object):
 
     def add_pairing(self, pairing):
         """Add a food pairing to the instance's pairings list."""
-
+        self.pairings.append(pairing)
+        print(self.pairings)
+        
+        return self.pairings
         
 
     def update_code(self, new_code):
