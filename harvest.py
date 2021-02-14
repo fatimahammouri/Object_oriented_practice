@@ -11,7 +11,13 @@ class MelonType(object):
         """Initialize a melon."""
 
         self.pairings = []
-        
+        self.cede = code
+        self.first_harvest = first_harvest
+        self.color = color
+        self.is_seedless = is_seedless
+        self.is_bestseller = is_bestseller
+        self.name = name
+
 
     def add_pairing(self, pairing):
         """Add a food pairing to the instance's pairings list."""
@@ -38,6 +44,7 @@ def print_pairing_info(melon_types):
     """Prints information about each melon type's pairings."""
 
     
+
 
 def make_melon_type_lookup(melon_types):
     """Takes a list of MelonTypes and returns a dictionary of melon type by code."""
